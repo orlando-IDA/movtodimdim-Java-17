@@ -1,0 +1,8 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+.env
+*.PublishSettings
+*.publishsettings
+*.log
+.idea/
+.vscode/
