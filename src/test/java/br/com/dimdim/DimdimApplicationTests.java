@@ -17,7 +17,7 @@ import br.com.dimdim.repository.TransactionRepository;
 import br.com.dimdim.repository.UserRepository;
 
 @SpringBootTest(properties = {
-    "spring.datasource.url=jdbc:h2:mem:dimdim_ci;MODE=MSSQLServer;DB_CLOSE_DELAY=-1",
+    "spring.datasource.url=jdbc:h2:mem:dimdim_ci;MODE=MSSQLServer;NON_KEYWORDS=VALUE;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
     "spring.datasource.username=sa",
     "spring.datasource.password=",
     "spring.datasource.driverClassName=org.h2.Driver",
